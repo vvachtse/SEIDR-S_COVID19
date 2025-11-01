@@ -79,6 +79,7 @@
 (*Est=ListPlot[vacset]*)
 (*Show[Ist,Est]*)
 
+(* Entropy of the model *)
 
 Nn[t_]=(ssol[t]+isol[t]+rsol[t]+esol[t]+dsol[t])^(-1);
 sn[t_]=ssol[t]*Nn[t];
